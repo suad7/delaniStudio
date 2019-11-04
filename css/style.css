@@ -43,6 +43,7 @@
   top: 40%;
   left: 40%;
   transform: translate(-25%,-45%);
+  display:none;
 }
 .icon {
   text-align: center;
