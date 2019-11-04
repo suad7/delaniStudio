@@ -4,6 +4,12 @@ Delani studio
 Suad mohamed
 ### DESCRIPTION
 A landing page for a fictional studio which gives brief description of what they do as well as highlighting the projects they have completed. The page contents animate on scrolling down. The page also allows a user to send in an email by filling the form located at the page footer, displaying an alert on submitting the form.
+### PROJECT SETUP INSTRUCTION
+To view the app, open the Github Pages link provided below on the README. Here is a run through of how to set up the application
+
+- Step 1 : Clone this repository using git clone https://github.com/suad7/delaniStudio.git, or downloading a     ZIP file of the code.
+- Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location      and opened
+- Step 3 : Open the index.html file to view the application on your preferred web browser
 ### DEPLOYING (LIVE LINK)
 https://suad7.github.io/delaniStudio
 ### BEHAVIOR DRIVEN DEVELOPMENT (SPECIFICATIONS)
