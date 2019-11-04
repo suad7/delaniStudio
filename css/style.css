@@ -31,7 +31,6 @@
   text-align: center;
   position: center;
   padding-top: 8%;
-
 }
 
 .icon {
@@ -49,6 +48,30 @@
   text-align: center;
   width: 100%;
   height: 100vh;
-  color: aliceblue;
 }
 
+.cc {
+  margin-left: 0%;
+  margin-right: 3%;
+  padding-right: 23%;
+  background: transparent;
+}
+.ct ::placeholder {
+  color: white;
+}
+.message {
+  margin-left: 0%;
+  padding-right: 59%;
+  margin-top: 22px;
+  padding-bottom: 400px;
+  background: transparent;
+}
+.btn {
+  background: transparent;
+  margin-top: 4%;
+  border-color: white;
+  color: white;
+}
+.io {
+  margin-top: 8%;
+}
