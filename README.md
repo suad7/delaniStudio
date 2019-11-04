@@ -1,6 +1,6 @@
 ### PRIJECT NAME
 Delani studio
-![screenshot](images/screenshot.png)
+![screenshot](image/screenshot.png)
 ### PROJECT AUTHOR
 Suad mohamed
 ### DESCRIPTION
