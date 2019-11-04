@@ -1,1 +1,17 @@
-
+$(document).ready(function(){
+    $(".swapout").hide()
+    $(".swapout01").hide()
+    $(".swapout02").hide()
+  $(".design").click(function(){
+      $(".swapout").toggle();
+      $(".myimage").toggle();
+  })
+  $(".development").click(function(){
+    $(".swapout01").toggle();
+    $(".myimage1").toggle();
+})
+$(".product").click(function(){
+    $(".swapout02").toggle();
+    $(".myimage2").toggle();
+})
+});

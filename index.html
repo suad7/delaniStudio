@@ -23,12 +23,12 @@
                 </h1>
                 <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
                 <br>
-                <img src="../image/mouse_click.png" alt=""  id="mouse">
+                <a href="#mymouse"><img src="../image/mouse_click.png" alt="" id="mouse"></a>
 
             </div>
         </div>
     </div>
-    <div class="container-fluid about">
+    <div class="container-fluid about" id="mymouse">
         <div class="container">
             <h2>ABOUT US</h2>
             <p>
@@ -66,8 +66,8 @@
         <br>
         <div class="row">
             <div class="col-md-4 design">
-                <div class="swapout">
-                    <img src="./image/services_icons/design_icon.png">
+                <div class="swapout1">
+                    <img src="./image/services_icons/design_icon.png" class="myimage">
                     <h3>Design</h3>
                 </div>
                 <div class="swapout">
@@ -82,8 +82,9 @@
                 </div>
             </div>
             <div class="col-md-4 development">
-                <img src="image/services_icons/dev_icon.png">
+                <img src="image/services_icons/dev_icon.png" class="myimage1">
                 <h3>Development</h3>
+                <div class="swapout01">
                 <p>All engineers are fluent in the latest enterprise, mobile and web development
                     technologies.<br>
                     <br>
@@ -92,15 +93,18 @@
                     practices such as test-driven development and pair programming.
                 </p>
             </div>
-            <div class="col-md-4 product management">
-                <img src="./image/services_icons/product_icon.png">
+            </div>
+            <div class="col-md-4 product">
+                <img src="./image/services_icons/product_icon.png" class="myimage2">
                 <h3>Product Management</h3>
+                <div class="swapout02">
                 <p>
                     Planning and development is iterative. Because we are constantly coding and testing, the
                     products we build are always ready to go live.<br>
                     <br>
                     This iterative process allows for changes as business requirements evolve.
                 </p>
+            </div>
             </div>
         </div>
     </div>
@@ -150,10 +154,11 @@
         <div class="contact">
             <h2>CONTACT US</h2>
             <form>
-                <input type="text" class="cc" placeholder="Name...">
-                <input type="text" class="cc" placeholder=" Email...">
-                <input type="text" class="message" placeholder="Your message here...">
-
+                <div>
+                    <input type="text" class="cc" placeholder="Name...">
+                    <input type="text" class="cc" placeholder=" Email...">
+                    <input type="text" class="message" placeholder="Your message here...">
+                </div>
             </form>
             <button type="button" class="btn" onclick="submitform()">Submit</button>
 
