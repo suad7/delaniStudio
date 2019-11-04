@@ -1,15 +1,23 @@
 ### PRIJECT NAME
-
+Delani studio
 ### PROJECT AUTHOR
-
+Suad mohamed
+### DESCRIPTION
+A landing page for a fictional studio which gives brief description of what they do as well as highlighting the projects they have completed. The page contents animate on scrolling down. The page also allows a user to send in an email by filling the form located at the page footer, displaying an alert on submitting the form.
 ### DEPLOYING (LIVE LINK)
-
+https://suad7.github.io/delaniStudio
 ### BEHAVIOR DRIVEN DEVELOPMENT (SPECIFICATIONS)
-
+- Behaviour:Page loads and a form displayed on scrolling to the footer.
+- Input: User enters form details (name, email and message) and clicks submit.
+- output: User receives a confirmation alert.
 ### TECHNOLOGIES USED
-
+- HTML
+- Css
+- Javascript
+- Bootscrap
+- jQuery
 ### CONTACT 
-
+sm.ha21@hotmail.com
 ### LICENSE 
 MIT License
 
