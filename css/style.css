@@ -32,7 +32,18 @@
   position: center;
   padding-top: 8%;
 }
-
+.img1{
+  position: relative;
+}
+.mytext {
+  position: absolute;
+  padding: 4%;
+  background-color: white;
+  text-align: center;
+  top: 40%;
+  left: 40%;
+  transform: translate(-25%,-45%);
+}
 .icon {
   text-align: center;
 }
