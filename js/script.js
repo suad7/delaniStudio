@@ -15,16 +15,16 @@ $(document).ready(function () {
         $(".myimage2").toggle();
     })
 });
-$(document).ready(function(){
-    $(".port").hover(function(){
+$(document).ready(function () {
+    $(".port").hover(function () {
         $(this).find(".mytext").fadeIn(500);
-    }, function(){
+    }, function () {
         $(this).find(".mytext").fadeOut(500);
     });
 });
-$(document).ready(function(){
+$(document).ready(function () {
     document.getElementById("form").addEventListener("submit", submitForm)
-    function submitForm(){
+    function submitForm() {
         alert("Thank you for reaching out to us");
     }
 })
