@@ -22,6 +22,12 @@ $(document).ready(function(){
         $(this).find(".mytext").fadeOut(500);
     });
 });
+$(document).ready(function(){
+    document.getElementById("form").addEventListener("submit", submitForm)
+    function submitForm(){
+        alert("Thank you for reaching out to us");
+    }
+})
 
 
 

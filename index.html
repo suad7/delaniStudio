@@ -122,7 +122,7 @@
                             <img src="./image/portfolio/work4.jpg" alt class="img-fluid">
                         </div>
                         <div class="mytext">
-                            Project1
+                            Project
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                             <img src="./image/portfolio/work3.jpg" alt class="img-fluid">
                         </div>
                         <div class="mytext">
-                            Project2
+                            Project
                         </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                             <img src="./image/portfolio/work2.jpg" alt class="img-fluid">
                         </div>
                         <div class="mytext">
-                            Project3
+                            Project
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                             <img src="./image/portfolio/work1.jpg" alt class="img-fluid">
                         </div>
                         <div class="mytext">
-                            Project1
+                            Project
                         </div>
                     </div>
                 </div>
@@ -209,14 +209,16 @@
     <div class="container-fluid ct">
         <div class="contact">
             <h2>CONTACT US</h2>
-            <form>
-                <div>
-                    <input type="text" class="cc" placeholder="Name...">
-                    <input type="text" class="cc" placeholder=" Email...">
-                    <input type="text" class="message" placeholder="Your message here...">
-                </div>
+            <form onsubmit="event.preventDefault()" id="form">
+            
+                    <input type="text" class="cc" placeholder="Name..." required>
+                    <input type="email" class="cc" placeholder=" Email..." required>
+                    <input type="text" class="message" placeholder="Your message here..." required>
+                    <br>
+                    <button type="submit" value="submit" class="btn btn-primary" onclick="submitform()">Submit</button>
+            
             </form>
-            <button type="button" class="btn" onclick="submitform()">Submit</button>
+           
 
             <div class="container io">
                 <a href="https://twitter.com/"><img src="./image/social_icons/twitter.png"></a>
