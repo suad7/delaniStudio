@@ -32,8 +32,13 @@
   position: center;
   padding-top: 8%;
 }
-.img1{
+.img1 {
   position: relative;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 .mytext {
   position: absolute;
@@ -42,8 +47,8 @@
   text-align: center;
   top: 40%;
   left: 40%;
-  transform: translate(-25%,-45%);
-  display:none;
+  transform: translate(-25%, -45%);
+  display: none;
 }
 .icon {
   text-align: center;
@@ -90,8 +95,8 @@
   margin-bottom: 3%;
   color: black;
 }
-#mouse{
-margin-top:40% ;
+#mouse {
+  margin-top: 40%;
 }
 .ct h2 {
   padding-top: 30px;
